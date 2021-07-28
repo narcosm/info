@@ -14,4 +14,4 @@ services:
 
 networks:
   campus_virtual:
-    external: true
+  
