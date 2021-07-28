@@ -1,2 +1,2 @@
 # info
-prueba de info ok
+prueba de info ok2
