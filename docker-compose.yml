@@ -1,0 +1,17 @@
+version: '3'
+networks:
+ campus_virtual:
+
+services:
+    info:
+     build: .
+     container_name: info
+     restart: on-failure
+     ports:
+        - "3001:3001"
+     networks:
+        - campus_virtual          
+
+networks:
+  campus_virtual:
+    external: true
